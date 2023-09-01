@@ -8,7 +8,7 @@
 #SBATCH --account=<account_id>
 
 module purge
-module load gcc/11.3.0
+module load usc
 module load fastqc
 sleep 20
 

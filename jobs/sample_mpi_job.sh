@@ -8,8 +8,6 @@
 #SBATCH --account=<account_id>
 
 module purge
-module load gcc/8.3.0
-module load openmpi/4.0.2
-module load pmix/3.1.3
+module load usc
 
 srun --mpi=pmix_v2 --ntasks $SLURM_NTASKS data/mpi_sample/mpi_hello_world

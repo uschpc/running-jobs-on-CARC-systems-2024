@@ -6,7 +6,7 @@
 #SBATCH --chdir /home1/ttrojan/running-jobs-on-CARC-2023
 #SBATCH --account=<account_id>
 module purge
-module load gcc/11.3.0
+module load usc
 echo "Job ID: $SLURM_JOB_ID"
 echo "Nodelist: $SLURM_JOB_NODELIST"
 cd $SLURM_SUBMIT_DIR
