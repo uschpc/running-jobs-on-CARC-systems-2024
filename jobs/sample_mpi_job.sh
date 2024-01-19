@@ -4,7 +4,7 @@
 #SBATCH --partition main
 #SBATCH --time=00:05:00
 #SBATCH --mem-per-cpu=512MB
-#SBATCH --chdir /home1/ttrojan/running-jobs-on-CARC-2023
+#SBATCH --chdir /home1/ttrojan/running-jobs-on-CARC-2024
 #SBATCH --account=<account_id>
 
 module purge
